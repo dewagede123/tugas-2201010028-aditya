@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+</head>
+<body>
+    <h2>form pendaftaran: </h2>
+    <form>
+        <label>nik</label>
+        <input type="text" name="NIK" placeholder="nik"><br>
+
+        <label>nama lengkap</label>
+        <input type="text" name="nama lengkap" placeholder="nama lengkap"><br>
+
+        <label>tanggal lahir</label>
+        <input type="date" name="tgl_lahir"><br>
+
+        <label>email</label>
+        <input type="email" name="email" placeholder="email"><br>
+
+        <label>password</label>
+        <input type="password" name="password" placeholder="password"><br>
+
+        <label>jenis kelamin</label>
+        <input type="radio" id="jk" name="jk" value="laki-laki">
+        <label for="laki-laki">laki-laki</label>
+        <input type="radio" id="jk" name="jk" value="perempuan">
+        <label for="perempuan">perempuan</label><br>
+
+        <label>agama</label>
+        <select name="agama">
+            <option value="hindu">hindu</option>
+            <option value="islam">islam</option>
+            <option value="kristen">kristen</option>
+            <option value="katolik">katolik</option>
+            <option value="buddha">buddha</option>
+            <option value="konghucu">konghucu</option>
+            <option value="ateis">ateis</option>
+        </select>
+        <br>
+        <label>hobi</label><br>
+        <input type="checkbox" id="sepeda" name="sepeda" value="bersepeda">
+        <label for="sepeda">bersepeda</label><br>
+        <input type="checkbox" id="sepakbola" name="sepakbola" value="sepakbola">
+        <label for="sepakbola">sepakbola</label><br>
+        <input type="checkbox" id="baca" name="baca" value="baca">
+        <label for="baca">membaca</label><br>
+
+        <label>file foto</label>
+        <input type="file"
+        id="avatar" name="avatar"
+        accept="image/png, image/jpeg">
+
+        <br>
+
+        <label>mesin pencari</label>
+        <input type="search" name="cari" placeholder="kata pencarian...">
+        <button>cari</button><br>
+
+        <label>input url</label>
+        <input type="url" name="url"><br>
+
+        <label>alamat:</label>
+        <textarea rows="5" cols="20" name="alamat"><</textarea> <br>
+
+        <label>jumalh barang yang dibeli:</label>
+        <input type="number" name="number"><br>
+
+        <button>kirim</button>
+    </form>
+</body>
+</html>
